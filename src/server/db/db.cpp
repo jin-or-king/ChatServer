@@ -1,4 +1,4 @@
-#include "/home/huangjin/myChat/include/server/db/db.h"
+#include "db.h"
 #include <muduo/base/Logging.h>
 #include <mysql/mysql.h>
 using namespace std;

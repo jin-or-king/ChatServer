@@ -1,7 +1,7 @@
 #ifndef GROUPMODEL_H
 #define GROUPMODEL_H
 
-#include "/home/huangjin/myChat/include/server/model/group.hpp"
+#include "group.hpp"
 #include <string>
 #include <vector>
 using namespace std;

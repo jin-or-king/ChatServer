@@ -1,5 +1,5 @@
-#include "/home/huangjin/myChat/include/server/chatserver.hpp"
-#include "/home/huangjin/myChat/include/server/chatservice.hpp"
+#include "chatserver.hpp"
+#include "chatservice.hpp"
 #include <signal.h>
 #include <iostream>
 

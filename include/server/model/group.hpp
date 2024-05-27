@@ -1,7 +1,7 @@
 #ifndef GROUP_H
 #define GROUP_H
 
-#include "/home/huangjin/myChat/include/server/model/groupuser.hpp"
+#include "groupuser.hpp"
 #include <string>
 #include <vector>
 using namespace std;

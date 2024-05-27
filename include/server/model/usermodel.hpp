@@ -1,7 +1,7 @@
 #ifndef USERMODEL_H
 #define USERMODEL_H
 
-#include "/home/huangjin/myChat/include/server/model/user.hpp"
+#include "user.hpp"
 
 // User表的数据操作类
 class UserModel{

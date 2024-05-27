@@ -1,4 +1,4 @@
-#include "/home/huangjin/myChat/include/server/model/groupmodel.hpp"
+#include "groupmodel.hpp"
 #include "/home/huangjin/myChat/include/server/db/db.h"
 
 // 创建群组

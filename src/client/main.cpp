@@ -1,4 +1,4 @@
-#include "/home/huangjin/myChat/thirdparty/json.hpp"
+#include "json.hpp"
 #include <iostream>
 #include <thread>
 #include <string>
@@ -18,9 +18,9 @@ using json = nlohmann::json;
 #include <semaphore.h>
 #include <atomic>
 
-#include "/home/huangjin/myChat/include/server/model/group.hpp"
-#include "/home/huangjin/myChat/include/server/model/user.hpp"
-#include "/home/huangjin/myChat/include/public.hpp"
+#include "group.hpp"
+#include "user.hpp"
+#include "public.hpp"
 
 // 记录当前系统登录的用户信息
 User g_currentUser;

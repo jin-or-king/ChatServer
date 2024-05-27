@@ -1,4 +1,4 @@
-#include "/home/huangjin/myChat/include/server/model/friendmodel.hpp"
+#include "friendmodel.hpp"
 #include "/home/huangjin/myChat/include/server/db/db.h"
 using namespace std;
 

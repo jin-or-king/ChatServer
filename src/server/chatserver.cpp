@@ -1,8 +1,8 @@
-#include "/home/huangjin/myChat/include/server/chatserver.hpp"
+#include "chatserver.hpp"
 #include <functional>
-#include "/home/huangjin/myChat/thirdparty/json.hpp"
+#include "json.hpp"
 #include <string>
-#include "/home/huangjin/myChat/include/server/chatservice.hpp"
+#include "chatservice.hpp"
 using namespace std;
 using namespace placeholders;
 using json = nlohmann::json;

@@ -1,7 +1,7 @@
-#include "/home/huangjin/myChat/include/server/model/usermodel.hpp"
+#include "usermodel.hpp"
 #include <cstdio>
 #include <mysql/mysql.h>
-#include "/home/huangjin/myChat/include/server/db/db.h"
+#include "db.h"
 using namespace std;
 
 // user表的增加方法

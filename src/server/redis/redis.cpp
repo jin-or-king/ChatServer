@@ -1,4 +1,4 @@
-#include "/home/huangjin/myChat/include/server/redis/redis.hpp"
+#include "redis.hpp"
 #include <iostream>
 using namespace std;
 

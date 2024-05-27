@@ -6,14 +6,14 @@
 #include <muduo/net/TcpConnection.h>
 #include <unordered_map>
 #include <functional>
-#include "/home/huangjin/myChat/thirdparty/json.hpp"
+#include "json.hpp"
 #include <memory>
-#include "/home/huangjin/myChat/include/server/model/usermodel.hpp"
-#include "/home/huangjin/myChat/include/server/model/offlinemessagemodel.hpp"
+#include "usermodel.hpp"
+#include "offlinemessagemodel.hpp"
 #include <mutex>
-#include "/home/huangjin/myChat/include/server/model/friendmodel.hpp"
-#include "/home/huangjin/myChat/include/server/model/groupmodel.hpp"
-#include "/home/huangjin/myChat/include/server/redis/redis.hpp"
+#include "friendmodel.hpp"
+#include "groupmodel.hpp"
+#include "redis.hpp"
 
 using json = nlohmann::json;
 

@@ -1,4 +1,4 @@
-#include "/home/huangjin/myChat/include/server/model/offlinemessagemodel.hpp"
+#include "offlinemessagemodel.hpp"
 #include "/home/huangjin/myChat/include/server/db/db.h"
 
 // 存储用户的离线消息
