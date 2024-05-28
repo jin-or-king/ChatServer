@@ -1,5 +1,5 @@
 #include "offlinemessagemodel.hpp"
-#include "/home/huangjin/myChat/include/server/db/db.h"
+#include "db.h"
 
 // 存储用户的离线消息
 void OfflineMsgModel::insert(int userid, string msg)

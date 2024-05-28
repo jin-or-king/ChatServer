@@ -1,5 +1,5 @@
 #include "friendmodel.hpp"
-#include "/home/huangjin/myChat/include/server/db/db.h"
+#include "db.h"
 using namespace std;
 
 // 添加好友关系

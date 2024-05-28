@@ -28,15 +28,12 @@ User g_currentUser;
 vector<User> g_currentUserFriendList;
 // 记录当前登录用户的群组列表信息
 vector<Group> g_currentUserGroupList;
-
 // 控制主菜单页面程序
 bool isMainMenuRunning = false;
-
 // 用于读写线程之间的通信
 sem_t rwsem;
 // 记录登录状态
 atomic_bool g_isLoginSuccess{false};
-
 
 // 接收线程
 void readTaskHandler(int clientfd);
